@@ -1,0 +1,177 @@
+body{
+    background-color: #6c95f117;
+}
+.navbar{
+    background-color: #ebe7f8;
+}
+#topHeader{
+    text-align: center;
+    padding: 1rem;
+    background-color: #7359AE;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white ;
+}
+#carousel_1{
+    float: left;
+}
+@media screen and (min-width: 500px) {
+    .d-block {
+      max-width: 500px;
+    }
+    .carousel{
+        width: 500px;
+        display: inline-block;
+    }
+    #carousel_1{
+        width: 500px;
+        display: inline-block;
+    }
+    .right{
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+    }
+    .right{
+        float: left;
+        display: inline-block;
+        text-align: center;
+        margin-left: 1rem;
+        background-color: #ccccff;
+        color: #040c0c;
+    }
+    .bottomRight{
+        display: inline-block;
+        padding: 1em;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .bottomRight .row{
+        column-gap: 0.5em;
+    }
+
+  }
+@media screen and (min-width: 768px) {
+    .d-block {
+      max-width: 750px;
+    }
+    .carousel{
+        width: 750px;
+        display: inline-block;
+    }
+    #carousel_1{
+        width: 750px;
+        display: inline-block;
+    }
+    .right{
+        padding: 70px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .bottomRight{
+        display: inline-block;
+        padding: 2em;
+        margin-left: 3em;
+        margin-top: 1em;
+    }
+    .right{
+        float: left;
+        display: inline-block;
+        text-align: center;
+        margin-left: 2rem;
+        background-color: #ccccff;
+        color: #111316;
+    }
+    .bottomRight .row{
+        column-gap: 3em;
+    }
+  }
+.carousel{
+    margin-left: 1rem;
+    display: inline-block;
+}
+h3{
+    font-weight: bold;
+}
+.bottomRight{
+    background-color: #7359AE;
+}
+/* front-end and back-end description section  */
+.cont{
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 2rem;
+}
+#front-end{
+    width: 15%;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.front-description{
+    line-height: 2;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.front-description b{
+    text-decoration: underline;
+}
+.front-description p{
+    font-size: large;
+    text-align: left;
+
+}
+.dotts{
+    font-size: 3em;
+    text-align: center;
+    color: rgba(144, 230, 237, 0.67);
+}
+#back-end{
+    width: 20%;
+    margin-left: 30px;
+    float: right;
+    margin-right: 30px;
+}
+.back-end-description{
+    line-height: 2;
+    margin-left: 10px;
+
+}
+.back-end-description b{
+    text-decoration: underline;
+}
+.back-end-description p{
+    font-size: large;
+    text-align: left;
+}
+ /* course description section   */
+.courseHeader{
+    text-align: center;
+    padding: 1em;
+    background-color: #ccccff;
+    margin-top: 2em;
+}
+.card{
+    display: inline-block;
+    margin: 0.2em;
+}
+.card-head{
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+}
+.course-name{
+    font-size: small;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.cds{
+    font-size: small;
+}
+.courses{
+    margin-top: 2em;
+    margin-left: 10rem;
+    width: 80%;
+}
+.foot{
+     margin-top: 1.5em;
+}
